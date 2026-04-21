@@ -1,0 +1,90 @@
+/* Home.module.css */
+
+.main {
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f5f7fa;
+}
+
+.heroTitle {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.accent {
+  color: #4CAF50;
+}
+
+.heroSub {
+  margin-top: 15px;
+  color: #555;
+}
+
+.ctaGroup {
+  margin-top: 25px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btnPrimary {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btnOutline {
+  border: 2px solid #4CAF50;
+  color: #4CAF50;
+}
+
+/* FEATURES */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.cardTitle {
+  margin-top: 10px;
+}
+
+.cardDesc {
+  color: #555;
+}
+
+/* BANNER */
+.banner {
+  padding: 50px;
+  text-align: center;
+  background: #4CAF50;
+  color: white;
+}
